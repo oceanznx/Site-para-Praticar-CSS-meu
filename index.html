@@ -9,91 +9,159 @@
     <body>
 
         <header>
-            <span style="font-weight: bold; font-size: 2.5rem;">MySite</span>
+            <span style="font-weight: bold; font-size: 2.5rem;">Quiz</span>
             <p><strong>Praticando</strong></p>
         </header>
-             <main>
-                <!--introdução-->
-                <section>
-                    <h1>Bem-vindo ao meu site!</h1>
-                    <p>Este é um site de exemplo para praticar HTML e CSS.</p>
-                </section>
-                <!--Pergunta1-->
-                <section>
-                    <h2>Como a mãe do pedro responde?
-                    </h2>
-                    <p>Desculpa Mãaeee!!</p>
-                    <form>
-                        <input type="radio" value="sim" name="sim" id="s">
-                            <label for="s">vtmnc Pedro</label><br>
-                        <input type="radio" value="não" name="sim" id="n">
-                            <label for="n">Ta bom Pedro</label><br>
-                        <input type="radio" value="talvez" name="sim" id="t">
-                            <label for="t">Não Pedro</label><br>
-                    </form>
-                </section>
 
-                <section>
-                    <h2>Pergunta</h2>
-                    <p>qual o aumentativo de dacueba?</p>
-                    <form>
-                        <input type="text" name="ptxt" id="pergunta-texto">
-                    </form>
-                </section>
-                <section>
-                    <h2>Senha do Cartão</h2>
-                    <p>bota a senha do cartão ai erriesi</p>
-                    <form>
-                    <input type="password" name="pswd" id="senha-cartão">
-                    </form>
-                </section>
+        <main>
+  
+            <section>
+                <h1>Bem-vindo ao meu site!</h1>
+                <p>Este é um site de exemplo para praticar HTML e CSS.</p>
+            </section>
+             
+            <section>
+                <h2>Como a mãe de fulano responde?</h2>
+                <p>Desculpa Mãaeee!!</p>
+                <form id="pergunta1">
+                    <input type="radio" value="Ta bom Luiz" name="resposta1" id="s">
+                    <label for="s">Ta bom Luiz</label><br>
+                    <input type="radio" value="Ta bom Pedro" name="resposta1" id="n">
+                    <label for="n">Ta bom Pedro</label><br>
+                    <input type="radio" value="Não Pedro" name="resposta1" id="t">
+                    <label for="t">Não Pedro</label><br>
+                </form>
+            </section>
 
-                <section>
-                    <h2>Teste Basico pra ver se ta esperto</h2>
-                    <p>Quais dessas tecnologia são consideradas Linguagens de programação?</p>
-                    <form>
-                        <input type="checkbox" value="html" name="html" id="html">
-                            <label for="html">HTML</label><br>
-                        <input type="checkbox" value="css" name="css" id="css">
-                            <label for="css">CSS</label><br>
-                        <input type="checkbox" value="js" name="js" id="js">
-                            <label for="js">JavaScript</label><br>
-                        <input type="checkbox" value="python" name="python" id="python">
-                            <label for="python">Python</label><br>
-                            </form>
-                </section>
+            <section>
+                <h2>Pergunta</h2>
+                <p>Qual o aumentativo de dacueba?</p>
+                <form id="pergunta2">
+                    <input type="text" name="ptxt" id="pergunta-texto">
+                </form>
+            </section>
+            
+            <section>
+                <h2>Teste Básico pra ver se tá esperto</h2>
+                <p>Quais dessas tecnologias são consideradas linguagens de programação?</p>
+                <form id="pergunta3">
+                    <input type="checkbox" value="HTML" name="linguagem" id="html">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" value="CSS" name="linguagem" id="css">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" value="JavaScript" name="linguagem" id="js">
+                    <label for="js">JavaScript</label><br>
+                    <input type="checkbox" value="Python" name="linguagem" id="python">
+                    <label for="python">Python</label><br>
+                </form>
+            </section>
 
-                <section>
-                    <h2>Quem e melhor?</h2>
-                    <form>
-                        <select name="melhor" id="melhor-select">
-                            <option value="none">none</option>
-                            <option value="Neymar">Neymar</option>
-                            <option value="Cr7">Cr7</option>
-                            <option value="Messi">Messi</option>
-                    </form>
-                        </select>
-                </section>
+            <section>
+                <h2>Quem é melhor?</h2>
+                <form id="pergunta4">
+                    <select name="melhor" id="melhor-select">
+                        <option value="none">none</option>
+                        <option value="Neymar">Neymar</option>
+                        <option value="Cr7">Cr7</option>
+                        <option value="Messi">Messi</option>
+                    </select>
+                </form>
+            </section>
 
-                <section>
-                    <details>
-                        <summary>Todo conhecimento e pouco</summary>
-                        <p>Aqui estão algumas informações adicionais que você pode querer saber.</p>
+            <section>
+                <details>
+                    <summary>Todo conhecimento é pouco</summary>
+                    <p>Aqui estão algumas informações adicionais que você pode querer saber.</p>
+                    
                     <nav>
                         <ol>
-                        <a href="https://youtu.be/Fhy-5CtVkiM?si=f2K3rx9P_Z6MXBL3">Html</a> 
-                        <a href="https://youtu.be/Z7mnxUI4u00?si=5TLKfVH-B4vH-Zhy">JavaScript</a> 
-                        <a href="https://youtu.be/AB35iSr1YyA?si=xEKuglgCmNtRhCh3">CSS</a> 
-                        <a href="https://youtu.be/3J1xBL7zJXg?si=s1OuNFS_tZma4K3P">Python</a> 
-                    </ol>
+                            <a href="https://youtu.be/Fhy-5CtVkiM?si=f2K3rx9P_Z6MXBL3">HTML</a> 
+                            <a href="https://youtu.be/Z7mnxUI4u00?si=5TLKfVH-B4vH-Zhy">JavaScript</a> 
+                            <a href="https://youtu.be/AB35iSr1YyA?si=xEKuglgCmNtRhCh3">CSS</a> 
+                            <a href="https://youtu.be/3J1xBL7zJXg?si=s1OuNFS_tZma4K3P">Python</a> 
+                        </ol>
                     </nav>
-                     </details>
-                </section>
-             </main>
+                </details>
+            </section>
 
-             <footer>
-                <p>&copy; 2025 Site para praticar CSS</p>
-                </footer>
+            <!-- Botão e resultado -->
+            <section style="text-align:center; margin-top: 20px;">
+                <button id="verificar-btn">Verificar Respostas</button>
+                <p id="resultado" style="font-weight:bold; margin-top:10px;"></p>
+                <div id="detalhes" style="margin-top:10px; text-align:left; display:inline-block;"></div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Site para praticar CSS</p>
+        </footer>
+
+        <script>
+            document.getElementById('verificar-btn').addEventListener('click', function() {
+                let acertos = 0;
+                let feedback = [];
+
+                // Pergunta 1
+                const resposta1 = document.querySelector('input[name="resposta1"]:checked');
+                if (resposta1 && resposta1.value === "Ta bom Pedro") {
+                    acertos++;
+                    feedback.push("✅ Pergunta 1: Correta!");
+                } else {
+                    feedback.push("❌ Pergunta 1: Errada. A resposta correta é 'Ta bom Luiz'.");
+                }
+
+                // Pergunta 2
+                const resposta2 = document.getElementById('pergunta-texto').value.trim().toLowerCase();
+                if (resposta2 === "dacuebão", "dacuebao", "Dacuebão", "DACUEBAO") {
+                    acertos++;
+                    feedback.push("✅ Pergunta 2: Correta!");
+                } else {
+                    feedback.push("❌ Pergunta 2: Errada. A resposta correta é 'Dacuebão'.");
+                }
+
+                // Pergunta 3
+                const linguagens = Array.from(document.querySelectorAll('input[name="linguagem"]:checked')).map(i => i.value);
+                if (linguagens.includes("JavaScript") && linguagens.includes("Python") && linguagens.length === 2) {
+                    acertos++;
+                    feedback.push("✅ Pergunta 3: Correta!");
+                } else {
+                    feedback.push("❌ Pergunta 3: Errada. As corretas são 'JavaScript' e 'Python'.");
+                }
+
+                // Pergunta 4
+                const resposta4 = document.getElementById('melhor-select').value;
+                if (resposta4 === "Cr7") {
+                    acertos++;
+                    feedback.push("✅ Pergunta 4: Correta!");
+                } else {
+                    feedback.push("❌ Pergunta 4: Errada. A resposta correta é 'Messi'.");
+                }
+
+                // Exibir resultado geral
+                const resultado = document.getElementById('resultado');
+                const detalhes = document.getElementById('detalhes');
+
+                if (acertos === 4) {
+                    resultado.textContent = "🎉 Parabéns! Você acertou todas as perguntas!";
+                    resultado.style.color = "green";
+                } else {
+                    resultado.textContent = `Você acertou ${acertos} de 4 perguntas.`;
+                    resultado.style.color = "red";
+                }
+
+                // Mostrar o feedback detalhado
+               detalhes.innerHTML = feedback.join("<br>");
+
+               detalhes.innerHTML = feedback
+                        .map(f => f.includes("✅")
+                        ? `<span class='correta'>${f}</span>`
+                        : `<span class='errada'>${f}</span>`)
+                        .join("");
+
+
+            });
+        </script>
+
     </body>
-
 </html>
